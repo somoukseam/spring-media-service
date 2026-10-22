@@ -1,0 +1,4 @@
+package com.example.mediaservice.feature.media;
+
+public interface MediaMapper {
+}

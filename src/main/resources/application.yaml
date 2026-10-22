@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: media-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:4002/db_media
+    username: postgres
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      show-sql: true
+
+
