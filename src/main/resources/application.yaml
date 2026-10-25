@@ -10,5 +10,16 @@ spring:
     hibernate:
       ddl-auto: create-drop
       show-sql: true
+    open-in-view: false
+  servlet:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+
+storage:
+  client-path: /storage/**
+  server-path: D:/PERSONAL_LEARNING/media-storage/
+  base-uri: http://localhost:8080/storage/
+
 
 
